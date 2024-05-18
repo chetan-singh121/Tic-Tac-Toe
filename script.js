@@ -108,7 +108,7 @@ function checkGameOver()
     if(ans!=="")
         {
             //means we have winner
-            currentPlayer.innerText=`Wiiner Player ${ans }`;
+            currentPlayer.innerText=`Winner Player ${ans }`;
             newGameBtn.classList.add("active");
             //winner mil gaya to saare boxes ko pointer events
             boxes.forEach((box)=>
